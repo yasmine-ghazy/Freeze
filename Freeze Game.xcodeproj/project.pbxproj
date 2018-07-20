@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		C20E9A802098998000095E30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20E9A7F2098998000095E30 /* AppDelegate.swift */; };
-		C20E9A822098998000095E30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20E9A812098998000095E30 /* ViewController.swift */; };
+		C20E9A822098998000095E30 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20E9A812098998000095E30 /* HomeVC.swift */; };
 		C20E9A852098998000095E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20E9A832098998000095E30 /* Main.storyboard */; };
 		C20E9A872098998000095E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20E9A862098998000095E30 /* Assets.xcassets */; };
 		C20E9A8A2098998000095E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20E9A882098998000095E30 /* LaunchScreen.storyboard */; };
+		C20E9A922098B20000095E30 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20E9A912098B20000095E30 /* GameVC.swift */; };
+		C255B6EA209C9AD70005F440 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C255B6E9209C9AD70005F440 /* AboutVC.swift */; };
+		C255B6EC209C9AEC0005F440 /* OptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C255B6EB209C9AEC0005F440 /* OptionsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C20E9A7C2098998000095E30 /* Freeze Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Freeze Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20E9A7F2098998000095E30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C20E9A812098998000095E30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C20E9A812098998000095E30 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		C20E9A842098998000095E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C20E9A862098998000095E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C20E9A892098998000095E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C20E9A8B2098998000095E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C20E9A912098B20000095E30 /* GameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		C255B6E9209C9AD70005F440 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		C255B6EB209C9AEC0005F440 /* OptionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				C20E9A7F2098998000095E30 /* AppDelegate.swift */,
-				C20E9A812098998000095E30 /* ViewController.swift */,
+				C20E9A812098998000095E30 /* HomeVC.swift */,
 				C20E9A832098998000095E30 /* Main.storyboard */,
 				C20E9A862098998000095E30 /* Assets.xcassets */,
 				C20E9A882098998000095E30 /* LaunchScreen.storyboard */,
 				C20E9A8B2098998000095E30 /* Info.plist */,
+				C20E9A912098B20000095E30 /* GameVC.swift */,
+				C255B6E9209C9AD70005F440 /* AboutVC.swift */,
+				C255B6EB209C9AEC0005F440 /* OptionsVC.swift */,
 			);
 			path = "Freeze Game";
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C20E9A822098998000095E30 /* ViewController.swift in Sources */,
+				C255B6EC209C9AEC0005F440 /* OptionsVC.swift in Sources */,
+				C255B6EA209C9AD70005F440 /* AboutVC.swift in Sources */,
+				C20E9A822098998000095E30 /* HomeVC.swift in Sources */,
+				C20E9A922098B20000095E30 /* GameVC.swift in Sources */,
 				C20E9A802098998000095E30 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +316,7 @@
 				C20E9A902098998000095E30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
